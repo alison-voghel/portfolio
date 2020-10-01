@@ -1,0 +1,229 @@
+/*  Table Of Content
+
+	01 Basics
+	02 Navbar
+	03 Header
+	04 About
+	05 Portfolio
+	06 Contact
+	07 Footer
+    08 Responsive
+    
+---------------------------------------------------------------- */
+/* ----------------------------------------------------------------
+     [ 01 Start Basics ]
+-----------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+body {
+  color: rgb(50, 50, 50);
+  font-family: "Poppins", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 0.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 48px;
+  padding-bottom: 30px;
+  font-weight: 200;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Raleway", Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(100, 100, 100);
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #e23e57;
+  letter-spacing: 0.15em;
+  font-size: 12px;
+}
+
+.section-padding {
+  padding: 80px 100px;
+}
+
+.bg-gray {
+  background-color: #f7f7f7;
+}
+
+.bg-bold {
+  background-color: #e23e57;
+}
+
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.valign {
+  display: flex;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------
+     [ End Basics ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+     [ 02 Start Navbar ]
+-----------------------------------------------------------------*/
+.navbar .logo {
+  padding: 15px 0px;
+  letter-spacing: 0.2em;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  min-height: 100px;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background: transparent;
+}
+
+.navbar .nav .nav-link {
+  font-size: 14px;
+  position: relative;
+  letter-spacing: 0.25em;
+  font-weight: 300;
+}
+
+/* ----------------------------------------------------------------
+     [ End Navbar ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+     [ 03 Start Header ]
+-----------------------------------------------------------------*/
+header {
+  /*background-color: #fff0e6; */
+  background-image: url(/img/ipadLight.jpg);
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header .social i {
+  color: white;
+  padding: 10px;
+}
+/* ----------------------------------------------------------------
+     [ End Header ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+     [ 04 Start About ]
+-----------------------------------------------------------------*/
+
+.stack p {
+  background-color: #e23e57;
+  color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 5px 15px;
+  display: inline-flex;
+}
+/* ----------------------------------------------------------------
+     [ End About ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+     [ 05 Start Portfolio ]
+-----------------------------------------------------------------*/
+.portfolio .filtering span {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.portfolio .filtering .active {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.portfolio .item {
+  position: relative;
+  margin-top: 30px;
+  overflow: hidden;
+}
+/* ----------------------------------------------------------------
+     [ End Portfolio ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+     [ 06 Start Contact ]
+-----------------------------------------------------------------*/
+.contact .form input,
+.contact .form textarea {
+  width: 100%;
+  padding: 15px 15px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact .form textarea {
+  height: 150px;
+  max-height: 150px;
+  max-width: 100%;
+}
+
+/* ----------------------------------------------------------------
+     [ End Basics ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+     [ 07 Footer ]
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+     [ End Footer ]
+-----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+     [ 08 Start Responsive ]
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+     [ End Responsive ]
+-----------------------------------------------------------------*/
