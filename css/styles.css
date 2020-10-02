@@ -21,10 +21,16 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(50, 50, 50);
   font-family: "Poppins", Helvetica, sans-serif;
   line-height: 1.5;
+  position: relative;
+  text-align: left;
 }
 
 h1 {
@@ -53,7 +59,7 @@ p {
   font-family: "Raleway", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 200;
-  color: rgb(100, 100, 100);
+  color: rgb(69, 69, 69);
   line-height: 1.5;
 }
 
@@ -106,7 +112,9 @@ a {
   padding: 15px 0px;
   letter-spacing: 0.2em;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(92, 92, 92);
 }
 
 .navbar {
