@@ -180,16 +180,18 @@ header {
 /* ----------------------------------------------------------------
      [ 04 Start About ]
 -----------------------------------------------------------------*/
-.about-content,
-.skills-content {
+.tab-container {
   background-color: #fff0e6;
   border-radius: 20px;
   padding: 60px 30px;
+  margin-top: 40px;
+  margin-left: -999px;
 }
 
-.skills-content {
-  margin-top: 80px;
+.tab-content {
+  margin-left: 999px;
 }
+
 /* ----------------------------------------------------------------
      [ End About ]
 -----------------------------------------------------------------*/
